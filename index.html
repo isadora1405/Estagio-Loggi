@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Loggi</title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+    <header>
+        <h1>Leitor de código de barras</h1>
+    </header>
+    <section>
+        <div>
+            <p>Digite o código de barras
+            <input type="text" name="numero" id="numero">
+            <input type="button" value="Cadastrar" onclick="finalizar()">
+            <br><input type="button" value="Lista por destino" onclick="listarRegiao()">
+            <input type="button" value="Lista por produtos" onclick="listarProdutos()">
+            <input type="button" value="Lista Vendedor" onclick="listarVendedor()">
+        </p>
+            
+        </div>
+        <div id="res">
+            
+        </div>
+    </section>
+    <footer>
+        <p>&copy; Isadora Dornelas</p>
+    </footer>
+    <script src="script.js">
+
+    </script>
+</body>
+</html>
